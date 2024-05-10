@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Project Proposal Review</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #ededed;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        h2 {
+            color: #7D7D7D;
+            margin: 0;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            font-size: large;
+            
+            text-align: left;
+            font-weight: 50;
+        }
+
+        .info-block {
+            margin-bottom: 20px;
+        }
+
+        .info-item {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .info-item strong {
+            font-size: medium;
+            min-width: 160px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        .info-item .value {
+            font-size: small;
+            font-weight: normal;
+            color: #333;
+        }
+
+        .info-item img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #eee;
+            margin-top: 20px;
+        }
+
+        .cost {
+            font-size: 18px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        .review-status, .status {
+            text-align: right;
+        }
+
+        .status {
+            color: red;
+            font-weight: bold;
+            font-size: 16px;
+            background: #ffcacaca;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 20px;
+            row-gap: 20px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <h2>Review your Project Proposal</h2>
+        <div class='grid'>
+            <div class='info-block'>
+                <div class='info-item'><strong>Project Name:</strong> <span class='value'>MES ECS implementation</span></div>
+                <div class='info-item'><strong>Division:</strong> <span class='value'>ELSP - Smart Power</span></div>
+                <div class='info-item'><strong>Project Start Date:</strong> <span class='value'></span></div>
+                <div class='info-item'>
+                    <strong>Project Sponsor:</strong> 
+                    <span class='value'>Alberto Iacop</span>
+                    
+                </div>
+            </div>
+            <div class='info-block'>
+                <div class='info-item'><strong>Unit:</strong> <span class='value'>FRFRA - (Demand) - ABB France</span></div>
+                <div class='info-item'><strong>Project Finish Date:</strong> <span class='value'></span></div>
+                <div class='info-item'><strong>Benefit:</strong> <span class='value'>Cost Saving</span></div>
+                <div class='info-item'><strong>Priority:</strong> <span class='value'>3 - Medium</span></div>
+            </div>
+            <div class='info-block'>
+                <div class='info-item'><strong>Goals & Objective:</strong> <span class='value'>Deployment MES solution for all ELSP factories (to be confirmed the part on FR IT budget)</span></div>
+            </div>
+           
+        </div>
+        <div class='footer'>
+            <div class='cost'>Total Cost Estimation: 206 KUSD</div>
+            <div class='review'>
+                <div class='review-status'>
+                    Demand Proposal reviewed and accepted by <strong>Francois Bouet</strong>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
